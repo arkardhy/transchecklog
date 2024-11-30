@@ -10,7 +10,7 @@ export function AdminLogin() {
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    if (password === 'admin123') { // In a real app, use proper authentication
+    if (password === '@TransKK') { // In a real app, use proper authentication
       storage.setAdminToken('dummy-token');
       navigate('/admin');
     } else {
